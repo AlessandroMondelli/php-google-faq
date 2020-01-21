@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+h2 {
+  color: #3c4043;
+}
+
+header {
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  width: 100vw;
+  color: #5f6368;
+}
+
+header #google-head {
+  padding: 24px 24px 0 24px;
+}
+
+header #google-head #up-logo img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+header #google-head #up-logo a {
+  font-size: 22px;
+}
+
+header #google-head #nav {
+  margin-top: 20px;
+}
+
+header #google-head #nav ul {
+  font-size: 15px;
+}
+
+header #google-head #nav ul li {
+  margin-right: 30px;
+  padding-bottom: 2px;
+}
+
+header #google-head #nav ul li:last-child {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
+.faq-sez {
+  padding-top: 99.11px;
+  margin-top: 85px;
+}
+
+.faq-sez .faq {
+  max-width: 98%;
+}
+

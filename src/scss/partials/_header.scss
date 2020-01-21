@@ -1,0 +1,43 @@
+header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid $border-color;
+    width: 100vw;
+    color: $header-font-color;
+
+    #google-head {
+        padding: $header-padding;
+
+        #up-logo {
+            img {
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+
+            a {
+                font-size: 22px;
+            }
+        }
+
+        #nav {
+            margin-top: $header-nav-margin;
+
+            ul {
+                font-size: 15px;
+
+                li {
+                    margin-right: 30px;
+                    padding-bottom: 2px;
+
+                    &:last-child {
+                        color: $header-selected-color;
+                        border-bottom: 3px solid $header-selected-color
+                    }
+                }
+            }
+        }
+
+    }
+}

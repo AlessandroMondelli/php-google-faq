@@ -1,0 +1,21 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+    }
+}
+
+h2 {
+    color: $faqs-title-color;
+}
