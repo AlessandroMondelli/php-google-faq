@@ -32,11 +32,11 @@ header {
 
                 li {
                     margin-right: 30px;
-                    padding-bottom: 2px;
+                    padding-bottom: 7px;
 
                     &:last-child {
                         color: $header-selected-color;
-                        border-bottom: 3px solid $header-selected-color
+                        border-bottom: 4px solid $header-selected-color
                     }
                 }
             }

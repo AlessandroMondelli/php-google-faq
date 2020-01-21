@@ -80,5 +80,23 @@
                 ?>
             </div>
         </main>
+        <footer>
+            <div id="google-foot" class="container clearfix">
+                <div class="float list">
+                    <ul>
+                        <li><a href="#"><small>Google</small></a></li>
+                        <li><a href="#"><small>Tutto su Google</small></a></li>
+                        <li><a href="#"><small>Privacy</small></a></li>
+                        <li><a href="#"><small>Termini</small></a></li>
+                    </ul>
+                </div>
+                <div class="float select">
+                    <select>
+                        <option>Italiano</option>
+                        <option>English</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

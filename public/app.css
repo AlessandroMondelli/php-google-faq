@@ -10,6 +10,12 @@
   margin: 0 auto;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -53,7 +59,7 @@ header #google-head #up-logo a {
 }
 
 header #google-head #nav {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 header #google-head #nav ul {
@@ -63,12 +69,12 @@ header #google-head #nav ul {
 
 header #google-head #nav ul li {
   margin-right: 30px;
-  padding-bottom: 2px;
+  padding-bottom: 7px;
 }
 
 header #google-head #nav ul li:last-child {
   color: #3367d6;
-  border-bottom: 3px solid #3367d6;
+  border-bottom: 4px solid #3367d6;
 }
 
 header #google-head #nav a {
@@ -97,5 +103,38 @@ header #google-head #nav a {
 
 .faq-sez .faq p a {
   color: #3367d6;
+}
+
+footer {
+  background-color: whitesmoke;
+  color: rgba(61, 61, 61, 0.8);
+}
+
+footer #google-foot {
+  padding: 10px 15px 10px 15px;
+  height: 24px;
+}
+
+footer #google-foot .float {
+  float: left;
+  width: 50%;
+}
+
+footer #google-foot .list li {
+  position: relative;
+  font-size: 11px;
+  margin-right: 3px;
+}
+
+footer #google-foot .list li:not(:first-child)::before {
+  content: ".";
+  position: absolute;
+  bottom: 10%;
+  left: -6px;
+}
+
+footer #google-foot .select select {
+  float: right;
+  width: 40%;
 }
 

@@ -1,0 +1,37 @@
+footer {
+    background-color: $footer-background-color;
+    color: $footer-color;
+
+    #google-foot {
+        padding: $footer-padding;
+        height: 24px;
+
+        .float {
+            float: left;
+            width: 50%;
+        }
+
+        .list {
+            li {
+                position: relative;
+                font-size: 11px;
+                margin-right: 3px;
+            }
+
+            li:not(:first-child)::before {
+                content: '.';
+                position: absolute;
+                bottom: 10%;
+                left: -6px;
+            }
+
+        }
+
+        .select {
+            select {
+                float: right;
+                width: 40%;
+            }
+        }
+    }
+}
