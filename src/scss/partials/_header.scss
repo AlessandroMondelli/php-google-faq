@@ -6,6 +6,8 @@ header {
     border-bottom: 1px solid $border-color;
     width: 100vw;
     color: $header-font-color;
+    z-index: 3;
+    background-color: white;
 
     #google-head {
         padding: $header-padding;
@@ -26,6 +28,7 @@ header {
 
             ul {
                 font-size: 15px;
+                display: inline-block;
 
                 li {
                     margin-right: 30px;
@@ -36,6 +39,10 @@ header {
                         border-bottom: 3px solid $header-selected-color
                     }
                 }
+            }
+
+            a {
+                float: right;
             }
         }
 

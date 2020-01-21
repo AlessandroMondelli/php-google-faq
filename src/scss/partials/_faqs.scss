@@ -3,6 +3,20 @@
     margin-top: $margin-top-main;
 
     .faq {
-        max-width: 98%;
+        margin-bottom: 70px;
+        @include rispStyle(.2px,24px);
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            color: $faqs-p-color;
+
+            a {
+                color: $header-selected-color;
+            }
+        }
     }
 }
